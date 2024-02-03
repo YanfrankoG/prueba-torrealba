@@ -1,0 +1,96 @@
+
+.box{
+
+	display: flex;
+	justify-content: center;
+
+ 
+}
+
+
+.contenedor{
+
+	background: lightgray;
+	padding: 5px;
+	margin-left: 20px;
+	
+}
+
+.contenedor2{
+
+
+
+	margin-left: 20px;
+
+	
+}
+
+.contenedorP{
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+
+
+    text-align: center;
+
+    color: white; 
+
+    padding: 50px;
+
+}
+
+h2{
+	font-family: arial;
+}
+
+
+
+
+.prueba{
+
+
+	position: absolute;
+ 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+
+
+
+
+}
+
+
+.centrado{
+
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.clase1{
+
+	width: 400px;
+	height: 400px;
+	background: blue;
+	position:relative; 
+
+	left: 40%;
+
+	/*top: 10%;
+	background-image: url(tienda.jpg);
+	background-repeat: no-repeat;
+*/
+
+}
+
+
+.clase2{
+
+	position: absolute;
+	
+	left: 50%;
+	top: 50%;
+	text-align: center;
+}
